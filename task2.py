@@ -5,6 +5,7 @@ import tkinter as tk
 window = tk.Tk()
 window.title("T-Town Veterinary Clinic Database")
 window.geometry("560x180")
+window.resizable(False,False)
 
 dogphoto = tk.PhotoImage(file="dog.png")
 dog = tk.Label(window, image=dogphoto, borderwidth=3)
